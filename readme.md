@@ -6,8 +6,6 @@ A PHP client for the Galiboo API. Feedback or bug reports are appreciated.
 
 Get your API key from Galiboo 
 
----
-
 ### Installation
 
 If you're using Composer, you can run the following command:
@@ -34,7 +32,8 @@ include('../src/Request.php');
 use TANIOS\Galiboo\Galiboo;
 $galiboo = new Galiboo('API KEY');
 ```
-### Prepare a request
+
+## Prepare a request
 
 ### Metadata
 
@@ -137,11 +136,12 @@ $request = $galiboo->jobStatus($job_id);
 $request = $galiboo->jobAllStatus();
 ```
 
-### Get the response
+## Get the response
 ```php
 $response = $request->getResponse();
 print_r($response);
 ```
+---
 
 ## Credits
 
