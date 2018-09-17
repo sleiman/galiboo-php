@@ -33,7 +33,8 @@ use TANIOS\Galiboo\Galiboo;
 $galiboo = new Galiboo('API KEY');
 ```
 
-## Prepare a request
+## Request
+Prepare a request 
 
 ### Metadata
 
@@ -75,7 +76,7 @@ $query = array(
 $request = $galiboo->findTracksByTags($query);
 ```
 
-#### findSimilarTracks
+#### Find similar tracks
 ```php
 $request = $galiboo->findSimilarTracks("5a43df43c3de0d10231633d3");
 ```
@@ -136,7 +137,8 @@ $request = $galiboo->jobStatus($job_id);
 $request = $galiboo->jobAllStatus();
 ```
 
-## Get the response
+## Response
+Get the response
 ```php
 $response = $request->getResponse();
 print_r($response);

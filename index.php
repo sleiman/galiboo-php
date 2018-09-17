@@ -14,7 +14,7 @@ $galiboo = new Galiboo('API KEY');
 // Metadata
 
 // Get metadata for tracks
-// $request = $galiboo->getTrackMetadata("5a41aae78cc3d0d2d4259034");
+$request = $galiboo->getTrackMetadata("5a41aae78cc3d0d2d4259034");
 
 // Get metadata for artists
 // $request = $galiboo->getArtistMetadata("5a43df43c3de0d10231633d3");
@@ -41,15 +41,15 @@ $galiboo = new Galiboo('API KEY');
 // );
 // $request = $galiboo->findTracksByTags($query);
 
-// findSimilarTracks
+// Find similar tracks
 // $request = $galiboo->findSimilarTracks("5a43df43c3de0d10231633d3");
 
 // Personalization
 
-// addNewUser
+// Add New User
 // $request = $galiboo->addNewUser($unique_id_from_your_database);
 
-// addUserEvent
+// Add User Event
 // $request = $galiboo->addUserEvent($galibo_user_id,$timestamp,$type,$object);
 
 // Get a user
