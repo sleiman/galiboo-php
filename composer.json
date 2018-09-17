@@ -1,0 +1,14 @@
+{
+    "name": "sleiman/galiboo-php",
+    "license": "MIT",
+    "autoload": {
+     "psr-4": {
+        "TANIOS\\Galiboo\\": "src"
+    }
+   },
+    "description": "A Galiboo API PHP client",
+    "version": "1.0",
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
