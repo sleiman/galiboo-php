@@ -20,7 +20,7 @@ If you're using Composer, run the autoloader
 ```php
 require 'vendor/autoload.php';
 ```
-Or include all the. files
+Or include all the files
 
 ```php
 include('../src/Galiboo.php');
