@@ -4,7 +4,7 @@ A PHP client for the Galiboo API. Feedback or bug reports are appreciated.
 
 ## Get started
 
-Get your API key from Galiboo 
+Get your [API key from Galiboo](https://galiboo.com/) 
 
 ### Installation
 
